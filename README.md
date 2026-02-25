@@ -1,7 +1,8 @@
-# مشروع معمل الطلاب: لوحة تحكم الوعود (Promises) والـ API
+# Post Dashboard
 
 لوحة تحكم صغيرة تقوم بجلب البيانات من JSONPlaceholder API باستخدام الوعود (Promises)، وتعرضها باستخدام Bootstrap 5، مع تنظيم الكود باستخدام ES6 modules.
 
+link : https://osama816.github.io/Post-Dashboard-js
 ## المميزات
 - **اختيار المستخدم**: جلب وعرض قائمة المستخدمين في قائمة منسدلة.
 - **عرض المنشورات**: جلب وعرض منشورات المستخدم المختار ديناميكياً.
@@ -22,16 +23,8 @@ project/
 ```
 
 ## كيفية التشغيل
-بما أن هذا المشروع يستخدم ES6 Modules، يجب تشغيله عبر خادم ويب (لا يمكن تشغيله بفتح ملف `index.html` مباشرة بسبب قيود الأمان للمتصفحات).
-
-1. **باستخدام Laragon (Windows)**:
-   - ضع مجلد المشروع في `C:\laragon\www`.
-   - قم بتشغيل Laragon.
-   - ادخل عبر الرابط `http://localhost/api1`.
-
-2. **باستخدام VS Code Live Server**:
-   - افتح مجلد المشروع في VS Code.
-   - انقر بزر الماوس الأيمن على `index.html` واختر "Open with Live Server".
+**باستخدام  url**:
+ https://osama816.github.io/Post-Dashboard-js
 
 ## التقنيات المستخدمة
 - Vanilla JavaScript
