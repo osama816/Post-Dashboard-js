@@ -5,7 +5,9 @@ export const state = {
     filteredPosts: [],
     selectedUserId: null,
     searchText: '',
-    loading: false
+    loading: false,
+    currentPage: 1,
+    itemsPerPage: 6
 };
 
 export const applyFilter = (posts, searchText) => {
